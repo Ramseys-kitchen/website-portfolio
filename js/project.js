@@ -19,11 +19,11 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Creative Studio",
+    title: "Creative Studio Drawing",
     category: "digital",
     type: "Website Design",
     description: "Portfolio site for an emerging design company. Clean, editorial layout with custom type.",
-    imageUrl: "images/image-3.PNG",  // testing third image 
+    imageUrl: "images/image-2.PNG",  // testing third image 
     imageColor: "#c9b6a8"
-  }
+  } 
 ];
