@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work — Kgomotso Graphic Designer</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/work.css">
+</head>
+<body>
+  <main>
+    <section class="page-content">
+      <h1>Work</h1>
+      <p class="subhead">Branding · Print · Digital</p>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="print">Print</button>
+        <button class="filter-btn" data-filter="digital">Digital</button>
+      </div>
+
+     
+      <div class="projects-grid" id="work-grid"></div>
+
+    </section>
+  </main>
+
+  
+<div id="lightbox" class="lightbox">
+  <span class="close-lightbox" id="lightbox-close">&times;</span>
+  <div class="lightbox-content">
+    <div class="lightbox-img" id="lb-image"></div>
+    <p id="lb-type"></p>
+    <h3 id="lb-title"></h3>
+    <p id="lb-desc"></p>
+    <div>
+      <strong>Tools: </strong><span id="lb-tools"></span>
+      &nbsp;&nbsp;
+      <strong>Year: </strong><span id="lb-year"></span>
+    </div>
+  </div>
+</div>
+
+  <footer class="site-footer">
+    <p>© 2025 Kgomotso — Johannesburg</p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/project.js"></script>
+  <script src="js/work.js"></script>
+</body>
+</html>
