@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("lb-title").textContent = project.title;
     document.getElementById("lb-desc").textContent = project.description;
     document.getElementById("lb-tools").textContent = project.tools || "See description";
-    document.getElementById("lb-year").textContent = project.year || "2024";
+    document.getElementById("lb-year").textContent = project.year || "2026";
 
     lightbox.style.display = "flex";
     document.body.style.overflow = "hidden";
