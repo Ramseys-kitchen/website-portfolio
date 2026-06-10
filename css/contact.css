@@ -1,0 +1,27 @@
+form {
+  max-width: 600px;
+  margin: 48px 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input, textarea {
+  padding: 14px 18px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+}
+button[type="submit"] {
+  width: fit-content;
+  border: none;
+  cursor: pointer;
+}
+#form-feedback {
+  margin-top: 8px;
+  font-weight: 500;
+}
+.contact-extra {
+  margin-top: 32px;
+}
