@@ -17,7 +17,7 @@ function createNav() {
           ${pages.map(page => `
             <li><a href="${page.url}" class="${currentPage === page.url ? 'active' : ''}">${page.name}</a></li>
           `).join('')}
-          <li><button id="darkmode-toggle" aria-label="Dark mode">🌓</button></li>
+          <li><button id="darkmode-toggle" aria-label="Dark mode">Mode</button></li>
         </ul>
       </div>
     </nav>
@@ -46,7 +46,7 @@ function createNav() {
       const newTheme = root.classList.contains("dark-mode") ? "dark" : "light";
       localStorage.setItem("theme", newTheme);
     });
-  }
+  } 
 }
 
 createNav();
